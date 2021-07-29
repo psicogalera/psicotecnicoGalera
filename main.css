@@ -9,14 +9,14 @@ body {
 }
 
 #home-section {
-  background: url(../psicogalera/img/galera1.jpg) no-repeat;
+  background: url(../psicotecnicogalera/img/galera1.jpg) no-repeat;
   min-height: 100vh;
   background-size: cover;
   background-attachment: fixed;
 }
 
 #who-section {
-  background: url(../psicogalera/img/logoPsicotecnicoGalera.jpg) no-repeat;
+  background: url(../psicotecnicogalera/img/logoPsicotecnicoGalera.jpg) no-repeat;
   min-height: 100vh;
   background-size: cover;
   background-attachment: fixed;
@@ -24,7 +24,7 @@ body {
 }
 
 #services-section {
-  background: url(../psicogalera/img/Malteser_Galeere.jpg) no-repeat;
+  background: url(../psicotecnicogalera/img/Malteser_Galeere.jpg) no-repeat;
   min-height: 100vh;
   background-size: cover;
   background-attachment: fixed;
