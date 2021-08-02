@@ -5,55 +5,53 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Psicotécnico G A L E R A</title>
-  <!-- BOOTSTRAP CSS CDN -->
+
+<!-- BOOTSTRAP CSS CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-  <!-- FONT AWESOME -->
+<!-- FONT AWESOME -->
   <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Condensed" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-    <!-- Add icon library -->
+<!-- Add icon library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
 <!-- NAVIGATION -->
-<nav class="navbar navbar-expand-sm fixed-top navbar-light" style="background-color: #e3f2fd;">
-<div class="container">
-  <a href="index.html" class="navbar-brand">
-    Psicotécnico G A L E R A
-  </a>
-<button type="button" class="nav-toggler" data-toggle="collapse"
-data-target="#navbarCollapse">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a href="#home-section" class="nav-link">Inicio</a>
-    </li>
-    <li class="nav-item">
-      <a href="#who-section" class="nav-link">Quienes somos</a>
-    </li>
-    <li class="nav-item">
-      <a href="#equips-section" class="nav-link">Equipos</a>
-    </li>
-    <li class="nav-item">
-      <a href="#services-section" class="nav-link">Servicios</a>
-    </li>
-    <li class="nav-item">
-      <a href="#localization-section" class="nav-link">Localización</a>
-    </li>
-    <li class="nav-item">
-      <a href="#contact-section" class="nav-link">Contacto</a>
-    </li>
-  </ul>
-
-</div>
-
-
-</div>
+<nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <a href="index.html" class="navbar-brand">
+      Psicotécnico G A L E R A
+    </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+      <ul class="navbar-nav mb-2 mb-lg-0 ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home-section">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a href="#who-section" class="nav-link">Quienes somos</a>
+        </li>
+        <li class="nav-item">
+          <a href="#equips-section" class="nav-link">Equipos</a>
+        </li>
+        <li class="nav-item">
+          <a href="#services-section" class="nav-link">Servicios</a>
+        </li>
+        <li class="nav-item">
+          <a href="#localization-section" class="nav-link">Localización</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact-section" class="nav-link">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </nav>
+
 <!-- HOME -->
 <header id="home-section">
   <div class="dark-overlay">
@@ -66,11 +64,10 @@ data-target="#navbarCollapse">
         </div>
       </div>
     </div>
-
   </div>
-
 </header>
 
+<!-- WHO -->
 <header id="who-section">
 <section class="who-head-section">
   <div class="home-inner">
@@ -88,6 +85,7 @@ data-target="#navbarCollapse">
 </section>
 </header>
 
+<!-- EQUIPS -->
 <header id="equips-section">
 <section class="equips-head-section">
   <div class="home-inner">
@@ -102,7 +100,7 @@ data-target="#navbarCollapse">
       <div class="row row-cols-1 row-cols-md-4 g-4">
         <div class="col">
           <div class="embed-responsive embed-responsive-16by9">
-            <img src="img/equipos/IMG_9274.jpg" class="card-img-top embed-responsive-item" alt="...">
+            <img src="img/equipos/IMG_9274.jpg" class="card-img-top embed-responsive-item img-circle" alt="...">
           </div>
         </div>
         <div class="col">
@@ -120,7 +118,7 @@ data-target="#navbarCollapse">
             <img src="img/equipos/IMG_9266.jpg" class="card-img-top embed-responsive-item" alt="...">
           </div>
         </div>
-      <!-- <div class="row row-cols-1 row-cols-md-4 g-4"> -->
+      
         <div class="col">
           <div class="embed-responsive embed-responsive-16by90">
             <img src="img/equipos/IMG_9267.jpg" class="card-img-top embed-responsive-item" alt="...">
@@ -147,6 +145,7 @@ data-target="#navbarCollapse">
 </section>
 </header>
 
+<!-- SERVICES -->
 <header id="services-section">
 <section class="services-head-section">
   <div class="home-inner">
@@ -156,8 +155,6 @@ data-target="#navbarCollapse">
           <h1 class="display-4">SERVICIOS</h1><br>
           <ul style="list-style-type: none;">
             <strong>Certificados Médicos / Reconocimientos:</strong><hr>
-
-
               <li>Conducción</li>
               <li>Grúas</li>
               <li>Ordinario</li>
@@ -168,8 +165,7 @@ data-target="#navbarCollapse">
               <li>Embarcaciones de Recreo</li>
               <li>Animales Peligrosos</li>
               <li>Pesca</li>
-
-            </ul>
+          </ul>
         </div>
       </div>
     </div>
@@ -177,6 +173,7 @@ data-target="#navbarCollapse">
 </section>
 </header>
 
+<!-- LOCALIZATION -->
 <header id="localization-section">
 <section class="localization-head-section">
   <div class="home-inner"></div>
@@ -195,6 +192,7 @@ data-target="#navbarCollapse">
 </section>
 </header>
 
+<!-- CONTACT -->
 <header id="contact-section">
 <section class="#contact-section">
   <div class="home-inner">
@@ -218,7 +216,7 @@ data-target="#navbarCollapse">
 <p>Siguenos en </p>
 <a href="https://es-la.facebook.com/psicotecnicogalera/" target="_blank" class="fa fa-3x fa-facebook"></a>&nbsp;&nbsp;
 <a href="https://www.instagram.com/psicotecnico_galera/" target="_blank" class="fa fa-3x fa-instagram"></a><br><br><hr>
-<!-- <p class="copy">© 2021 Psicotécnico Galera by AAA</p> -->
+
 <small>&copy; 2021 - Psicotécnico Galera by AAA</small>&nbsp;&nbsp;<hr>
 </footer>
   </div>
@@ -227,7 +225,7 @@ data-target="#navbarCollapse">
         </div>
 </section>
 </header>
-  <!-- BOOTSTRAP SCRIPT CDN -->
+<!-- BOOTSTRAP SCRIPT CDN -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

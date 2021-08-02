@@ -4,13 +4,14 @@ body {
 }
 
 .navbar {
-  border-bottom: #c0392b 3px solid;
+  border-bottom: #5f2bc0 3px solid;
   opacity: 0.7;
 }
 
 #home-section {
   background: url(../psicotecnicogalera/img/galera1.jpg) no-repeat;
   min-height: 100vh;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -18,6 +19,7 @@ body {
 #who-section {
   background: url(../psicotecnicogalera/img/logoPsicotecnicoGalera.jpg) no-repeat;
   min-height: 100vh;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   color: black;
@@ -26,6 +28,7 @@ body {
 #services-section {
   background: url(../psicotecnicogalera/img/Malteser_Galeere.jpg) no-repeat;
   min-height: 100vh;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   color: white;
